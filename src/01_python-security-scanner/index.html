@@ -45,49 +45,89 @@
     </div>
 </header>
 -->
-<div id="particles-js"></div>
 
-<main class="container pt-3">
-    <div class="row mt-5">
-        <div class="col-6 align-self-center">
-            <h1>We Secure & Audit <br>Your Data Science Models</h1>
+<!-- <div id="particles-js"></div> -->
+
+
+<main class="container mt-5 mb-5" style="
+    background-color: white;
+">
+    <div class="row">
+        <div class="col d-flex align-items-center justify-content-center">
+            <h1 class="display-3">Imagine Saving Tons Of Time & Money On Creating Secure Machine-Learning Code</h1>
         </div>
-        <div class="col-6 align-self-center">
-            <h4>How does our process look like?</h4>
-            <ol class="list-group list-group-numbered">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">1. Upload Your Python or R Code To Our Secure Servers</div>
-                        We guarantee that your code is deleted after the scan.
-                    </div>
-                </li>
 
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">2. We Check Your Code</div>
-                        We scan for the latest security iss such as common exploits, injections or common security recommendations from frameworks
-                    </div>
-                </li>
+        <div class="row mt-3">
 
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">3. You Get The Issue Report</div>
-                        You get a report from us on all found security issues or you can import the issues directly to your current repository for your coders.
-                    </div>
-                </li>
-            </ol>
+            <div class="col-6">
+                <p class="lead">
+                    Model Audit is the best way to secure your machine learning models
+                </p>
+                <p>
+                    Let's be honest coding good machine learning models is hard. After you finish your project you WANT
+                    to see your model ASAP in production. BUT before you can deploy it the IT-Teams ask you for code
+                    scans, security tests or even a
+                    penetration test. This takes time and budget.
+                </p>
+                <p>
+                    It's time to streamline this process. We automatically scan your code and let you know where
+                    you should focus on securing it at the moment you're already working on your model. We give you a
+                    report or import our findings directly as Issues into your repository.
+
+                    Get on the list today and Model Audit can help you get the results you deserve with your Machine
+                    Learning Models.
+                </p>
+            </div>
+            <div class="col-6 pt-4">
+                <h4>How do we secure your model?</h4>
+                <ol class="list-group lgit ist-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">1. Commit Your Python or R Code To Our Secure Servers <i
+                                    class="bi bi-cloud-upload"></i>
+                            </div>
+                            We guarantee that your code is deleted after the scan.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">2. We Check Your Code <i class="bi bi-upc-scan"></i></div>
+                            We scan for the latest security issues such as security vulnerabilities, exploits or the
+                            latest security recommendations
+                        </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">3. You Get The Issue Report <i class="bi bi-clipboard-data"></i></div>
+                            You get a report from us on all found security issues, or you can import the issues directly
+                            to your current repository.
+                        </div>
+                    </li>
+                </ol>
+            </div>
         </div>
     </div>
 
     <div class="row justify-content-center mt-5">
         <div class="col-6">
-            <h2>Get The Early Customer Deal For FREE</h2>
-            <p>We are currently in Beta and give ALL early users a great deal. Sign up and Get Our Early Life-Time
-                Deal</p>
-            <div class="input-group mb-3 ">
+            <h2>Are you adventurous?
+            </h2>
+            <p>Come join the journey! We are currently in private beta - but if you join our list, you'll get
+                exclusive updates, a free month on us, and a lifelong 30% discount - just for being the trailblazer
+                you are.</p>
+            <!--
                 <input type="text" class="form-control" placeholder="Enter Your Best Email"
                        aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-warning" type="button" id="button-addon2">Button</button>
+                <button class="btn btn-warning" type="button" id="button-addon2">Join</button>
+            * We promise we'll never spam you
+            -->
+            <div class="justify-content-center">
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeh731haf5YyyWgJl5dUT61SUXaLs2XsbSeD_CJ5aNi96M1iQ/viewform?embedded=true"
+                        width="540" height="661" frameborder="0" marginheight="0" marginwidth="0">Loading…
+                </iframe>
             </div>
         </div>
     </div>
@@ -103,126 +143,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-
 <!-- Custom JF classes -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-<!-- <script src="./js/app.js"></script> -->
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-        particlesJS.load('particles-js', {
-            "particles": {
-                "number": {
-                    "value": 80,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#000000"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 0.5,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 3,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#000000",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        }, function () {
-            console.log('callback - particles.js config loaded');
-        });
-    });
-</script>
+
 </body>
 </html>
